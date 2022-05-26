@@ -1,0 +1,79 @@
+::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+  }
+  input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+.profile_logo {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.sidebar_logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.side {
+    margin-left: 10px;
+}
+.info{
+    margin-top: 5px;
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.side_img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    right: 16px;
+}
+.img_text {
+    font-size: larger;
+    position: relative;
+    top: 12px;
+    margin-left: 15px;
+}
+.img_link {
+    position: relative;
+    left: 25px;
+}
+.footer_link {
+    text-decoration: none;
+    color: rgba(var(--edc,199,199,199),1);
+    font-size: 12px;
+}
+.bar {
+    width: 85px;
+    height: 85px;
+    border-radius:50%;
+}
+.li_gr {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.post_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.comment {
+    display: flex;
+}
